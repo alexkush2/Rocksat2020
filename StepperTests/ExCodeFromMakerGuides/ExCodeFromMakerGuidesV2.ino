@@ -19,9 +19,9 @@ void loop() {
   for (int i = 0; i < 10; i++) {
     // These four lines result in 1 step:
     digitalWrite(stepPin, HIGH);
-    delayMicroseconds(5000);
+    delayMicroseconds(50000);
     digitalWrite(stepPin, LOW);
-    delayMicroseconds(5000);
+    delayMicroseconds(50000);
   }
 
   delay(2000);
